@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 final AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this);
-                dialogBuilder.setTitle("Select a Language")
+                dialogBuilder.setTitle("ভাষা নির্বাচন করুন")
                         .setSingleChoiceItems(Language, lang_selected, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
